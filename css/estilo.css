@@ -1,0 +1,11 @@
+body{background-color:red;}
+.letraazul {color:blue;
+  font-size: xx-large;
+background-color: white;font-style: italic;}
+
+.blanco{color: white}
+.titulos{background-color: white}
+.titulos{text-decoration-line: underline;}
+.titulos{transform-origin: center;}
+.parrafos{color: black;text-align: center;}
+.imagen{height: auto;}
