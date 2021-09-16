@@ -1,0 +1,46 @@
+body{background-color:red;}
+.letraazul {color:blue;
+  font-size: xx-large;
+background-color: white;font-style: italic;
+text-align: center;}
+
+.blanco{color: white}
+.titulos{background-color: white}
+.titulos{text-decoration-line: underline;}
+.titulos{transform-origin: center;}
+.parrafos{color: black;text-align: center;}
+.imagen{height: auto;}
+.what{width: 10%;
+      height: 10%;
+      position: fixed;
+    top: 75%;
+  }
+
+header{background-color: yellow;}
+nav{background-color: black;}
+section{background-color: blue;}
+aside{background-color: green;}
+footer{background-color: tomato;}
+
+.enlaces{color: white;
+         text-align: center;}
+
+section{float: left;
+        width: 45%;
+         height: 300px;
+         margin: 2%;
+        border: 2px solid;
+         box-sizing: border-box;}
+aside {float: right;
+        width: 45%;
+        height: 300px;
+         margin: 2%
+         border: 2px dotted;
+         box-sizing: border-box;}
+footer
+.redes{ width: 10%;
+  height: 10%;
+ float: right ;}
+ .insta{width: 10%;
+   height: 10%;
+   float: left 30%;}
