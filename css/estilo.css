@@ -17,13 +17,20 @@ text-align: center;}
   }
 
 header{background-color: yellow;}
-nav{background-color: black;}
+nav{background-color: green;}
 section{background-color: blue;}
 aside{background-color: green;}
 footer{background-color: tomato;}
 
 .enlaces{color: white;
-         text-align: center;}
+         text-align: center;
+       background-color: black;}
+.enlaces:hover{
+  background-color: red;
+  width: 20%;
+  text-decoration: underline;
+  font-style: italic;
+}
 
 section{float: left;
         width: 45%;
@@ -44,3 +51,6 @@ footer
  .insta{width: 10%;
    height: 10%;
    float: left 30%;}
+ .map ::after{
+  content: "LA FLOR MAS LINDA DE TURQUIA";
+}
