@@ -1,6 +1,14 @@
+@@font-face {
+  font-family: "arabia";
+  src: url("../fuentes/Bebas+Neue")
+  format("truetype")
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 body{background-color:red;}
 .letraazul {color:blue;
-  font-size: xx-large;
+  font-size: 4vw;
 background-color: white;font-style: italic;
 text-align: center;}
 
@@ -8,15 +16,20 @@ text-align: center;}
 .titulos{background-color: white}
 .titulos{text-decoration-line: underline;}
 .titulos{transform-origin: center;}
-.parrafos{color: black;text-align: center;}
-.imagen{height: auto;}
+.parrafos{color: black;text-align: center;
+font-size: 1.5rem;
+overflow: scroll;
+}
+
 .what{width: 10%;
       height: 10%;
       position: fixed;
     top: 75%;
   }
 
-header{background-color: yellow;}
+header{background-color: yellow;
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;}
 nav{background-color: green;}
 section{background-color: blue;}
 aside{background-color: green;}
@@ -37,7 +50,8 @@ section{float: left;
          height: 300px;
          margin: 2%;
         border: 2px solid;
-         box-sizing: border-box;}
+         box-sizing: border-box;
+       font-size: 1em;}
 aside {float: right;
         width: 45%;
         height: 300px;
@@ -54,3 +68,12 @@ footer
  .map ::after{
   content: "LA FLOR MAS LINDA DE TURQUIA";
 }
+.in{ width: 10vw;
+height: 18vh;}
+
+.video{
+position: static;
+top: 30px;
+bottom: 30px;
+left: 5px;
+right: 5px;}
