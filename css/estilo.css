@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-body{background-color:red;}
+body{background-color:white;}
 .letraazul {color:blue;
   font-size: 4vw;
 background-color: white;font-style: italic;
@@ -17,8 +17,7 @@ text-align: center;}
 .titulos{text-decoration-line: underline;}
 .titulos{transform-origin: center;}
 .parrafos{color: black;text-align: center;
-font-size: 1.5rem;
-overflow: scroll;
+font-size: 1rem;
 }
 
 .what{width: 10%;
@@ -52,12 +51,15 @@ section{float: left;
         border: 2px solid;
          box-sizing: border-box;
        font-size: 1em;}
-aside {float: right;
-        width: 45%;
-        height: 300px;
-         margin: 2%
-         border: 2px dotted;
-         box-sizing: border-box;}
+aside {display: flex;
+align-items: flex-end;
+flex-direction:column;
+justify-content: space-between;
+}
+aside{
+  border:1px;
+  margin: 1px;
+}
 footer
 .redes{ width: 10%;
   height: 10%;
@@ -65,15 +67,22 @@ footer
  .insta{width: 10%;
    height: 10%;
    float: left 30%;}
- .map ::after{
-  content: "LA FLOR MAS LINDA DE TURQUIA";
-}
+
+.map{display: flex;
+align-items: flex-start;
+justify-content: flex-start;}
+
+
 .in{ width: 10vw;
 height: 18vh;}
+.jaz {display: none;
+}
 
-.video{
-position: static;
-top: 30px;
-bottom: 30px;
-left: 5px;
-right: 5px;}
+@media (min-width: 575px;max-width: 992px;){
+    header {background-color: lightblue;}
+  }
+
+@media (mix-width: 992px ; max-width:1200px;){
+body {  font-family: 'Montserrat', sans-serif;}
+.jaz {display: block;}
+}
