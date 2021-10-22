@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Lobster&display=swap');
+header{
+  display: flex;
+  justify-content: center;
+  border: 1px;
+  padding: 50px;
+  background-color: lightblue;}
+
+
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 10PX;
+text-align: center;
+margin-top: 5PX;
+
+}
+
+.color{
+  text-align: center;
+}
+.hola{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside{
+  flex: 40%;
+  background-color: beige;
+  padding: 10px;
+}
+section{
+  background-color: lightgray;
+  flex: 50%;
+  padding : 10px;
+}
+
+footer{
+display: flex 100%;
+width: 100%;
+border:10px;
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.wpp{
+  width: 70PX;
+  height: 70px;
+  float: right;
+
+}
+
+
+
+
+.RE{
+  display: flex;
+  justify-content: center;
+
+}
+.redes{
+  display: flex;
+  justify-content: flex-end;
+  width: 5rem;
+  height:5REM;
+}
+.insta{
+  width: 6rem;
+  height: 7rem;
+}
+.choclinas{
+  width: 200px;
+  height: 200px;
+  display:none;
+}
+.in{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.face{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+@media  (max-width: 575px){
+body {background-color: lightgray;}
+  }
+@media  (max-width: 1000px){
+.choco {display: none;}
+}
+@media (max-width: 575px){
+  header {font-family: 'Barlow Condensed', sans-serif;}
+}
+@media (max-width: 575px){
+.choclinas {display: block;}
+}
+@media(max-width: 1100px){
+  footer{font-family: 'Lobster', cursive ;}
+}
