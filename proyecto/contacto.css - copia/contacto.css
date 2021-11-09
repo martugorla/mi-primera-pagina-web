@@ -1,0 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+}
+.header{
+  border: 1px solid lightgray;
+display:flex;
+justify-content:flex-start;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.completa{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.Gracias{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: red;
+  color:white;
+
+}
+button:hover{
+  background-color: yellow;
+  color: black;
+}
+header{background-color: yellow;}
+footer{background-color: tomato;}
+.rompe:hover{
+color: green;
+text-shadow: lightblue;
+font-size: 2rem;
+font-family: 'Holtwood One SC', serif;
+}
+.tan:hover{
+  text-overflow: ellipsis;
+  text-decoration: overline;
+
+}
+footer
+.redes{ width: 10%;
+  height: 10%;
+ float: right ;}
+ .insta{width: 10%;
+   height: 10%;
+   float: left 30%;}
+.volver:hover{
+  background-color: tomato;
+  width: 20%;
+  text-decoration: underline;
+  font-style: italic;
+}
+.nosotros{
+  background-color: lightblue;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%
+  border: 2px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.rompe::after{
+letter-spacing: 2%;
+  content: ":BIENVENIDOS ";
+  font-family: 'Holtwood One SC', serif;
+}
+.rompe:hover{
+  text-decoration: line-through red;
+  color : lightblue;
+  background-color: white;
+}
+.beso{
+  display:none;
+}
+@media(max-width: 575px;){
+  .beso{display: block;}
+}
